@@ -15,7 +15,7 @@
         // Countdown Timer Final Date
         finalDate : 'April 1, 2023 00:00:00',
         // MailChimp URL
-        mailChimpURL : 'https://facebook.us1.list-manage.com/subscribe/post?u=1abf75f6981256963a47d197a&amp;id=37c6d8f4d6' 
+        mailChimpURL : 'https://github.us21.list-manage.com/subscribe/post?u=af0cf71d7393d133ff5ae6cfd&amp;id=89f6f401df&amp;f_id=002adee1f0' 
 
     };
 
