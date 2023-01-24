@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Knox - Particles</title>
+    <title>Knox - Slides</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -15,22 +15,22 @@
 
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="UnderConstruction/css/vendor.css">
-    <link rel="stylesheet" href="UnderConstruction/css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- favicons
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="UnderConstruction/site.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
-<body id="top" class="ss-preload theme-particles">
+<body id="top" class="ss-preload theme-slides">
 
 
-    <!-- preloader
+   <!-- preloader
     ================================================== -->
     <div id="preloader">
         <div id="loader" class="dots-fade">
@@ -45,12 +45,18 @@
     ================================================== -->
     <section id="intro" class="s-intro">
 
-        <div id="particles-js" class="s-intro__particles"></div>
+        <div class="s-intro__slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="s-intro__slide swiper-slide" style="background-image: url(images/slides/slide-01.jpg);"></div>
+                <div class="s-intro__slide swiper-slide bg-opacity-50" style="background-image: url(images/slides/slide-02.jpg);"></div>
+                <div class="s-intro__slide swiper-slide bg-opacity-10" style="background-image: url(images/slides/slide-03.jpg);"></div>
+            </div>
+        </div>
 
         <header class="s-intro__header"> 
             <div class="s-intro__logo">
-                <a class="logo" href="UnderConstruction/index-particles.html">
-                    <img src="UnderConstruction/images/logo.svg" alt="Homepage">
+                <a class="logo" href="index-slides.html">
+                    <img src="images/logo.svg" alt="Homepage">
                 </a>
             </div>
         </header>  <!-- s-intro__header -->
@@ -418,10 +424,8 @@
 
     <!-- Java Script
     ================================================== -->
-    <script src="UnderConstruction/js/plugins.js"></script>
-    <script src="UnderConstruction/js/main.js"></script>
-    <script src="UnderConstruction/js/particles.min.js"></script>
-    <script src="UnderConstruction/js/particle-settings.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
