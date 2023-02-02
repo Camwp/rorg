@@ -6,6 +6,7 @@
     <meta name="description" content="Start your development with Creative Studio landing page.">
     <meta name="author" content="Devcrud">
     <title>Creative Studio | Free Bootstrap 4.3.x template</title>
+    <script src="https://js.testnet.cask.fi/v1/index.js"></script>
 
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
@@ -73,6 +74,13 @@
         </div>      
     </header>
     <!-- End Of Page Header -->
+    <cask-checkout-button
+    class="cask-checkout-button"
+    environment="testnet"
+    provider="$wallet?.accounts[0]?.address"
+    plan="1"
+    label="Checkout with Crypto"
+    ></cask-checkout-button>
 
     <!-- Box -->
     <div class="box text-center">
